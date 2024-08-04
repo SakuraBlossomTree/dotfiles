@@ -1,0 +1,79 @@
+[window]
+
+padding  = {x=10,y=10} 
+
+opacity = 0.5
+
+blur = false
+
+[font]
+size = 13
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+# BEGIN WAL
+[colors.primary]
+background = '#122116'
+foreground = '#c3c7c4'
+
+[colors.cursor]
+text   = '#122116' # Apply background color to color of text inside cursor
+cursor = '#c3c7c4' # Apply foreground color to color of cursor
+
+[colors.vi_mode_cursor]
+text    = '#122116' # Same as above
+cursor  = '#c3c7c4'
+
+[colors.search.matches]
+foreground = '#122116' # Same as above
+background = '#c3c7c4' # Apply bright/white color to bg color of matching search
+
+[colors.search.focused_match]
+foreground = 'CellBackground'
+background = 'CellForeground'
+
+[colors.line_indicator]
+foreground = 'None'
+background = 'None'
+
+[colors.footer_bar]
+foreground = '#4d5850'
+background = '#c3c7c4'
+
+[colors.selection]
+text       = 'CellBackground'
+background = 'CellForeground'
+
+[colors.normal]
+black   = '#122116'
+red     = '#5faa71'
+green   = '#39aa5a'
+yellow  = '#49aa6a'
+blue    = '#57aa80'
+magenta = '#68aa8c'
+cyan    = '#73a8a2'
+white   = '#c3c7c4'
+
+[colors.bright]
+black   = '#4d5850'
+red     = '#5faa71'
+green   = '#39aa5a'
+yellow  = '#49aa6a'
+blue    = '#57aa80'
+magenta = '#68aa8c'
+cyan    = '#73a8a2'
+white   = '#c3c7c4'
+# END WAL
