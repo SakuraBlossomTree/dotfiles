@@ -1,0 +1,3 @@
+# Everforest
+
+My dotfiles config
