@@ -93,8 +93,6 @@ return packer.startup(function(use)
 
     use("dstein64/nvim-scrollview")
 
-    use("ray-x/web-tools.nvim")
-
     -- use {
     --     'nvim-treesitter/nvim-treesitter',
     --     run = ':TSUpdate',
@@ -114,8 +112,6 @@ return packer.startup(function(use)
             ts_update()
         end,
     }
-
-    use('andweeb/presence.nvim')
 
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup()
@@ -139,15 +135,7 @@ return packer.startup(function(use)
 
     use 'sakurablossomtree/jokevim.nvim'
 
-    use {
-        'akinsho/flutter-tools.nvim',
-        requires = {
-            'nvim-lua/plenary.nvim',
-            'stevearc/dressing.nvim', -- optional for vim.ui.select
-        },
-    }
-
-    require("flutter-tools").setup {}
+    use('andweeb/presence.nvim')
 
     if packer_bootstrap then
         require("packer").sync()
