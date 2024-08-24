@@ -13,6 +13,7 @@ local packer_bootstrap = ensure_packer()
 vim.cmd([[
   augroup packer_user_config
     autocmd!
+
     autocmd BufWritePost plugins-setup.lua source <afile> | PackerSync
   augroup end
 ]])
@@ -132,8 +133,6 @@ return packer.startup(function(use)
             "MunifTanjim/nui.nvim",
             }
         }
-
-    use 'sakurablossomtree/jokevim.nvim'
 
     use('andweeb/presence.nvim')
 
