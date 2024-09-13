@@ -103,6 +103,8 @@ alias cava=./.config/cava/script.sh
 
 alias floorp=one.ablaze.floorp
 
+alias slack=com.slack.Slack
+
 alias spacecadetpinball=com.github.k4zmu2a.spacecadetpinball 
 
 ff --config .config/fastfetch/cropped-config.jsonc

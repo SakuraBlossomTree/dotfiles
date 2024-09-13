@@ -224,11 +224,6 @@ _G.packer_plugins = {
     path = "/home/sakura/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["typescript.nvim"] = {
-    loaded = true,
-    path = "/home/sakura/.local/share/nvim/site/pack/packer/start/typescript.nvim",
-    url = "https://github.com/jose-elias-alvarez/typescript.nvim"
-  },
   ["vim-ReplaceWithRegister"] = {
     loaded = true,
     path = "/home/sakura/.local/share/nvim/site/pack/packer/start/vim-ReplaceWithRegister",
