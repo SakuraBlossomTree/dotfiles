@@ -134,7 +134,7 @@ return packer.startup(function(use)
         }
 
     use('andweeb/presence.nvim')
-
+     
     if packer_bootstrap then
         require("packer").sync()
     end
