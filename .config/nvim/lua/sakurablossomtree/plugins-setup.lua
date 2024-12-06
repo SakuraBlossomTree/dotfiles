@@ -134,7 +134,9 @@ return packer.startup(function(use)
         }
 
     use('andweeb/presence.nvim')
-     
+    
+    use('ThePrimeagen/vim-be-good')
+
     if packer_bootstrap then
         require("packer").sync()
     end
