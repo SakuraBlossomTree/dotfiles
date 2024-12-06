@@ -12,6 +12,20 @@ window#waybar {
    background: transparent; 
 }
 
+#window{
+    
+    border-radius: 10px;
+    background-color: transparent;
+    color: @color10;
+    margin-top: 15px;
+    margin-right: 15px; 
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px; 
+
+
+}
+
 /* window#waybar.hidden { */
 /*     opacity: 0.2; */
 /* } */

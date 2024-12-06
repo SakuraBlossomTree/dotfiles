@@ -12,6 +12,7 @@
     ],
     "modules-center": [
         "custom/spotify",
+        "hyprland/window"
     ],
     // "modules-right": [
     //     // "pulseaudio",
@@ -83,9 +84,9 @@
     },
     "hyprland/window": {
         "format": "{}",
-        "rewrite": {
-            "(.*) — Mozilla Firefox": " $1",
-        },
+        // "rewrite": {
+        //     "(.*) — Mozilla Firefox": " $1",
+        // },
         "separate-outputs": true
     },
     "tray": {
