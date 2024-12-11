@@ -44,3 +44,8 @@ keymap.set('n', '<leader>vt', ":ToggleTerm size=40 direction=vertical<CR>")
 keymap.set('n', '<leader>ht', ":ToggleTerm size=10 direction=horizontal<CR>")
 
 keymap.set('n', '<leader>s', ":MarkdownPreviewToggle<CR>")
+
+keymap.set("n", '<Up>', "<Nop>")
+keymap.set("n", '<Down>', "<Nop>")
+keymap.set("n", '<Left>', "<Nop>")
+keymap.set("n", '<Right>', "<Nop>")

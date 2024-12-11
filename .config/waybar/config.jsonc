@@ -12,7 +12,6 @@
     ],
     "modules-center": [
         "custom/spotify",
-        "hyprland/window"
     ],
     // "modules-right": [
     //     // "pulseaudio",
