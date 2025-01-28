@@ -175,7 +175,7 @@
         "on-click": "pavucontrol"
     },
     "custom/spotify": {
-        "exec": "/usr/bin/python3 /home/sakura/.config/waybar/mediaplayer.py --player spotify",
+        "exec": "/usr/bin/python3 /home/sakura/.config/waybar/mediaplayer.py",
         "format": "{}  ",
         "return-type": "json",
         "on-click": "playerctl play-pause",
