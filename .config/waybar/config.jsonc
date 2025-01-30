@@ -176,7 +176,7 @@
     },
     "custom/spotify": {
         "exec": "/usr/bin/python3 /home/sakura/.config/waybar/mediaplayer.py",
-        "format": "{}  ",
+        "format": "{} ",
         "return-type": "json",
         "on-click": "playerctl play-pause",
         "on-scroll-up": "playerctl next",
