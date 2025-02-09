@@ -26,20 +26,20 @@ family = "JetBrains Mono"
 style = "Regular"
 # BEGIN WAL
 [colors.primary]
-background = '#06011A'
-foreground = '#e2c9e8'
+background = '#090a0c'
+foreground = '#9eaabc'
 
 [colors.cursor]
-text   = '#06011A' # Apply background color to color of text inside cursor
-cursor = '#e2c9e8' # Apply foreground color to color of cursor
+text   = '#090a0c' # Apply background color to color of text inside cursor
+cursor = '#9eaabc' # Apply foreground color to color of cursor
 
 [colors.vi_mode_cursor]
-text    = '#06011A' # Same as above
-cursor  = '#e2c9e8'
+text    = '#090a0c' # Same as above
+cursor  = '#9eaabc'
 
 [colors.search.matches]
-foreground = '#06011A' # Same as above
-background = '#e2c9e8' # Apply bright/white color to bg color of matching search
+foreground = '#090a0c' # Same as above
+background = '#9eaabc' # Apply bright/white color to bg color of matching search
 
 [colors.search.focused_match]
 foreground = 'CellBackground'
@@ -50,30 +50,30 @@ foreground = 'None'
 background = 'None'
 
 [colors.footer_bar]
-foreground = '#9e8ca2'
-background = '#e2c9e8'
+foreground = '#6e7683'
+background = '#9eaabc'
 
 [colors.selection]
 text       = 'CellBackground'
 background = 'CellForeground'
 
 [colors.normal]
-black   = '#06011A'
-red     = '#A761BB'
-green   = '#6289BB'
-yellow  = '#2E95D7'
-blue    = '#5696D7'
-magenta = '#7193D5'
-cyan    = '#9C9EDE'
-white   = '#e2c9e8'
+black   = '#090a0c'
+red     = '#384358'
+green   = '#3A4E6A'
+yellow  = '#4C4F61'
+blue    = '#3D5E85'
+magenta = '#3F6187'
+cyan    = '#4F6689'
+white   = '#9eaabc'
 
 [colors.bright]
-black   = '#9e8ca2'
-red     = '#A761BB'
-green   = '#6289BB'
-yellow  = '#2E95D7'
-blue    = '#5696D7'
-magenta = '#7193D5'
-cyan    = '#9C9EDE'
-white   = '#e2c9e8'
+black   = '#6e7683'
+red     = '#384358'
+green   = '#3A4E6A'
+yellow  = '#4C4F61'
+blue    = '#3D5E85'
+magenta = '#3F6187'
+cyan    = '#4F6689'
+white   = '#9eaabc'
 # END WAL
