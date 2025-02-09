@@ -80,7 +80,6 @@ return packer.startup(function(use)
 
     use("neovim/nvim-lspconfig")
     use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
-    use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
     use("onsails/lspkind.nvim")
 
     use { 'gen740/SmoothCursor.nvim',

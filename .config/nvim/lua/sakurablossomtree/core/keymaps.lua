@@ -49,3 +49,10 @@ keymap.set("n", '<Up>', "<Nop>")
 keymap.set("n", '<Down>', "<Nop>")
 keymap.set("n", '<Left>', "<Nop>")
 keymap.set("n", '<Right>', "<Nop>")
+
+keymap.set("i", '<Up>', "<Nop>")
+keymap.set("i", '<Down>', "<Nop>")
+keymap.set("i", '<Left>', "<Nop>")
+keymap.set("i", '<Right>', "<Nop>")
+
+

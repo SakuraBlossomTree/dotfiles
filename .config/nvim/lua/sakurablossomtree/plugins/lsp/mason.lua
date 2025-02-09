@@ -17,10 +17,6 @@ mason_lspconfig.setup({
   ensure_installed = {
     "html",
     "cssls",
-    "lua_ls",
-    "emmet_ls",
-    "bashls",
-    "clangd",
     "marksman",
     "pyright",
     "jdtls"
