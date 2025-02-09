@@ -78,3 +78,18 @@ lspconfig["jdtls"].setup({
     },
 })
 
+
+local pid = vim.fn.getpid()
+
+lspconfig["omnisharp"].setup({
+    cmd = { "/usr/bin/OmniSharp", "--languageserver", "--hostPID", tostring(pid) },
+    capabilities = capabilities,
+    on_attach = on_attach,
+    enable_roslyn_analyzers = true,  -- Enables advanced analysis
+    organize_imports_on_format = true,  -- Automatically organizes imports
+    enable_import_completion = true,  -- Enables auto-imports
+    root_dir = function(fname)
+        return require("lspconfig.util").find_git_ancestor(fname) or vim.fn.getcwd()
+    end,
+    filetypes = { "cs", "vb" },  -- Ensures it attaches to C# and VB files
+})
