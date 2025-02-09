@@ -99,8 +99,6 @@ alias spotify-tui=ncspot
 
 alias f="$(pay-respects zsh)"
 
-alias cava=./.config/cava/script.sh
-
 alias floorp=one.ablaze.floorp
 
 alias slack=com.slack.Slack
