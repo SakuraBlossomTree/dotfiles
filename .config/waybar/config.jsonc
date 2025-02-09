@@ -182,9 +182,5 @@
         "on-scroll-up": "playerctl next",
         "on-scroll-down": "playerctl previous"
     },
-    // "custom/cava": {
-    //     "format": "{}",
-    //     "exec": "~/.config/waybar/cava.sh"
-    // }
 }
 
