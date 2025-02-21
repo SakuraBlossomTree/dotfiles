@@ -29,6 +29,7 @@
     //     // "tray"
     // ],
     "modules-right": [
+        "custom/music",
         "network",
         "pulseaudio",
         "battery",
@@ -191,5 +192,14 @@
         "on-scroll-up": "playerctl next",
         "on-scroll-down": "playerctl previous"
     },
+    "custom/music": {
+        "format": "{icon}",
+        "format-icons": {
+            "default": "󰝚"
+        },
+        "on-click": "/usr/bin/sh /home/sakura/.config/waybar/launcheww.sh",
+        "on-click-right": "eww close music-window"
+    }
+    
 }
 

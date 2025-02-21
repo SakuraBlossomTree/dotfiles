@@ -107,6 +107,7 @@ alias spacecadetpinball=com.github.k4zmu2a.spacecadetpinball
 
 ff --config .config/fastfetch/cropped-config.jsonc
 
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

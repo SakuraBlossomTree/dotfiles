@@ -139,7 +139,7 @@ button:hover {
     margin-right: 0;
 }
 
-#clock, #battery, #pulseaudio , #network{
+#clock, #battery, #pulseaudio , #network, #custom-music{
 
     color: #ffffff;
     border-radius: 10px;
@@ -261,6 +261,11 @@ label:focus {
     margin-right: 15px;
     font-weight: bold; 
     font-size: 20px;
+}
+#custom-music{
+    background-color: @color6; 
+    color: #ffffff;
+    min-width: 50px;
 }
 /**/
 /* #custom-media.custom-spotify { */
