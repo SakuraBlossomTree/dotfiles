@@ -73,7 +73,9 @@ return packer.startup(function(use)
 
     -- managing & installing lsp servers
 
-    use("williamboman/mason.nvim")
+    use {"williamboman/mason.nvim",
+            commit = "b68d3be4b664671002221d43c82e74a0f1006b26" 
+        }
     use("williamboman/mason-lspconfig.nvim")
 
     -- configuring lsp servers
